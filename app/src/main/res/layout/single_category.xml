@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipToPadding="true"
+    app:cardUseCompatPadding="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/click_back_ground"
+    android:clickable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <View
+            android:id="@+id/color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="@dimen/size_24"
+            android:layout_height="@dimen/size_24"/>
+        <TextView
+            android:layout_marginStart="@dimen/size_8"
+            app:layout_constraintStart_toEndOf="@+id/color"
+            android:textColor="@android:color/black"
+            android:id="@+id/type"
+            android:text="type"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

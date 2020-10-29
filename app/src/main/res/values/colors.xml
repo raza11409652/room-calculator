@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000022</color>
+    <color name="colorPrimaryDark">#000022</color>
+    <color name="colorAccent">#DE3C4B</color>
+    <color name="white">#fbf5f3</color>
+    <color name="white_p">#FFFFFF</color>
+    <color name="green_theme">#49D49D</color>
+    <color name="yellow_theme">#E28413</color>
+    <color name="accent_text_ripple">#EF8690</color>
+    <color name="primary_text_ripple">#65010137</color>
+    <color name="background">#eeeeee</color>
+
+</resources>
+
+<!--
+
+fbf5f3-e28413-000022-de3c4b-49d49d
+-->
